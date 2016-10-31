@@ -120,7 +120,7 @@ p{
     background-color: #286090;
     border-color: #122b40;
 }
-.btn-violat.focus, .btn-violat:focus,.btn-violat.active, .btn-violat:active {
+.btn-blue-pink.focus, .btn-blue-pink:focus,.btn-blue-pink.active, .btn-blue-pink:active {
     color: #fff;
     background-color: #286090;
     border-color: #122b40;
@@ -367,10 +367,10 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	padding-top: 120px;
 }
 /*******************************************ELEMENT STYLES*******************************************/
-.btn-orange,.btn-violat{
+.btn-orange,.btn-blue-pink{
 	color: #fff;
 }
-.btn-violat,.gradient-violat {
+.btn-blue-pink,.gradient-blue-pink {
   background-image: -moz-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
   background-image: -webkit-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
   background-image: -ms-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
@@ -406,7 +406,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 .img-responsive{
 	max-width:100%;
 }
-.text-violat{
+.text-blue-pink{
 	color: #6b6a8b;
 }
 .padding-top-bottom-120{
@@ -476,7 +476,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     border:0px;
     border-color: transparent;
 }
-.btn-violat.active, .btn-violat:active{
+.btn-blue-pink.active, .btn-blue-pink:active{
 	color: #fff;
 	background-image: -moz-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgb(244,202,216) 0%, rgb(129,112,137) 35%, rgb(14,21,58) 100%);
@@ -484,7 +484,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
     border:0px;
     border-color: transparent;
 }
-.btn-violat:hover,.btn-white:hover{
+.btn-blue-pink:hover,.btn-white:hover{
 	background-image: -webkit-linear-gradient(35deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
     background-image: -o-linear-gradient(35deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);
     background-image: linear-gradient(125deg, rgb(232,88,137) 0%, rgb(232,98,123) 32%, rgb(232,108,108) 100%);

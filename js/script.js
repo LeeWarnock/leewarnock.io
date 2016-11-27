@@ -26,7 +26,7 @@ $(document).ready(function() {
 	if (offsettop > 50) {
         $('.navbar').addClass('colored-nav');
         $('.navbar').addClass('gradient-blue-pink');
-        $("#scroll-top-div").fadeIn('500');
+        $("#scroll-top-div").fadeIn('350');
     } else {
         $('.navbar').removeClass('colored-nav');
         $('.navbar').removeClass('gradient-blue-pink');

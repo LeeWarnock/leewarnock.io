@@ -851,8 +851,8 @@ html {
 .margin-bottom-25{
 	margin-bottom:25px;
 }
-.padding-top-90{
-	padding-top: 90px;
+.padding-top-60{
+	padding-top: 60px;
 }
 .margin-top-bottom-30{
 	margin-top: 30px;
@@ -864,12 +864,34 @@ html {
 	border:1px solid;
 }
 
+/*************************GIPHY PARALLAX EFFECT**********************/
+.giphy-parallax { 
+    /* The image used */
+    background:url('') no-repeat center center;
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*********************************GIPHY BG STYLING********************************/
 .giphy-bg{
-      background:url('') no-repeat center center;
-      background-size: cover;
-			opacity: 0.8;
-    }
+    background:url('') no-repeat center center;
+    /* Set a specific height */
+    min-height: 0.666em; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
 
 /**********************************VIDEO BG*************************/
 .video-background {

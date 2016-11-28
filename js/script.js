@@ -17,8 +17,8 @@ $(document).ready(function() {
 		itemsMobile :[479,1],
 		pagination:false,
 		navigation:true,
-		navigationText:["<i class='ion-ios-arrow-left'></i>","<i class='ion-ios-arrow-right'></i>"]
-
+		navigationText:["<i class='ion-ios-arrow-left'></i>","<i class='ion-ios-arrow-right'></i>"],
+		transitionStyle: "fadeUp"
 	});
 
 	/* Navigation Menu*/

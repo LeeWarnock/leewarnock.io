@@ -168,14 +168,24 @@ header{
 .feature-wiget{
 	padding-top: 15px;
 	padding-bottom: 15px;
+	float: left;
+	clear: both;
+	text-align: center;
 }
-.feature-wiget h4, .feature-wiget i{
+.feature-wiget-right{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float:right;
+	clear: both;
+	text-align: center;
+}
+.feature-wiget h4, .feature-wiget i, .feature-wiget-right h4, .feature-wiget-right i{
 	color: #433b88;
 }
-.feature-wiget i{
+.feature-wiget i, .feature-wiget-right i{
 	font-size: 36px;
 }
-.feature-wiget h4{
+.feature-wiget h4, .feature-wiget-right h4{
 	text-transform: uppercase;
 }
 .bottom-line{
@@ -193,7 +203,8 @@ header{
 	left: 0;
 	margin-top: 7px;
 	margin-bottom: 5px;
-}
+	}
+
 /*******************************************CARD*****************************************************/
 .card{
 	box-shadow: 0px 4px 15px 0px rgba(191, 195, 198, 0.29);
@@ -864,22 +875,7 @@ html {
 	border:1px solid;
 }
 
-/*************************GIPHY PARALLAX EFFECT**********************/
-.giphy-parallax { 
-    /* The image used */
-    background:url('') no-repeat center center;
-
-    /* Set a specific height */
-    min-height: 500px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/*********************************GIPHY BG STYLING********************************/
+/*********************************GIPHY PARALLAX BG STYLING********************************/
 .giphy-bg{
     background:url('') no-repeat center center;
     /* Set a specific height */
@@ -892,42 +888,20 @@ html {
     background-size: cover;
 }
     
-
-/**********************************VIDEO BG*************************/
-.video-background {
-  background: #000;
-  position: fixed;
-  top: 0; right: 0; bottom: 0; left: 0;
-  z-index: -99;
+/*************************VIDEO PLAYER***********************************************/
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
 }
-.video-foreground,
-.video-background iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-}
-#vidtop-content {
+.videoWrapper iframe {
+	position: absolute;
 	top: 0;
-	color: #fff;
-}
-.vid-info { position: absolute; top: 0; right: 0; width: 33%; background: rgba(0,0,0,0.3); color: #fff; padding: 1rem; font-family: Avenir, Helvetica, sans-serif; }
-.vid-info h1 { font-size: 2rem; font-weight: 700; margin-top: 0; line-height: 1.2; }
-.vid-info a { display: block; color: #fff; text-decoration: none; background: rgba(0,0,0,0.5); transition: .6s background; border-bottom: none; margin: 1rem auto; text-align: center; }
-@media (min-aspect-ratio: 16/9) {
-  .video-foreground { height: 300%; top: -100%; }
-}
-@media (max-aspect-ratio: 16/9) {
-  .video-foreground { width: 300%; left: -100%; }
-}
-@media all and (max-width: 600px) {
-.vid-info { width: 50%; padding: .5rem; }
-.vid-info h1 { margin-bottom: .2rem; }
-}
-@media all and (max-width: 500px) {
-.vid-info .acronym { display: none; }
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: #382F2D;
 }
 
 /*******************************************SCROLL TOP ICON*****************************************/

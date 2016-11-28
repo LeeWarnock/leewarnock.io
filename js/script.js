@@ -88,6 +88,8 @@ $(document).ready(function() {
 
 	$('.giphy-bg').css("background-image", 'url(https://media.giphy.com/media/' + data.data.id + '/giphy.gif)'); 
 
+	$('.giphy-parallax').css("background-image", 'url(https://media.giphy.com/media/' + data.data.id + '/giphy.gif)'); 
+
 	});
 
 });

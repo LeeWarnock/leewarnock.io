@@ -79,5 +79,15 @@ $(document).ready(function() {
             scrollTop: 0
         }, 700);
     });
- 
+
+
+	/*********************Video Background***********************/
+	var xhr = $.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=glitch");
+
+	xhr.done(function(data) {
+
+	$('.giphy-bg').css("background-image", 'url(https://media.giphy.com/media/' + data.data.id + '/giphy.gif)'); 
+
+	});
+
 });

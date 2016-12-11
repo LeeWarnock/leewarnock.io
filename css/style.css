@@ -224,7 +224,7 @@ header{
 	color: #fff;
 	text-transform: uppercase;
 }
-.heading-wrapper .heading-devider{
+.heading-wrapper .heading-divider{
 	margin:0 auto;
 	width: 100px;
 	height: 2px;
@@ -335,7 +335,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 	font-family: 'Open Sans', sans-serif;
 	color: #999999;
 }
-.footer-devider{
+.footer-divider{
 	background-color: rgb(235, 235, 235);
 }
 .footer-end-line{

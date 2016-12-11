@@ -428,7 +428,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0f163b', end
 	padding-top: 120px;
 	padding-bottom: 120px;
 }
-.padding-top-bottom-90{
+.padding-top-bottom-60{
 	padding-top: 90px;
 	padding-bottom: 90px;
 }
@@ -965,14 +965,14 @@ html {
 		padding-top: 75px;
 		padding-bottom: 75px;
 	}
-	.padding-top-bottom-90{
+	.padding-top-bottom-60{
 		padding-top: 60px;
 		padding-bottom: 60px;
 	}
 	.padding-top-120{
 		padding-top: 75px;
 	}
-	.padding-top-90{
+	.padding-top-60{
 		padding-top: 60px;
 	}
 	.card-block{

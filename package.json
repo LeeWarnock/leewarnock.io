@@ -1,0 +1,19 @@
+{
+  "name": "leewarnock.io",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeWarnock/leewarnock.io.git"
+  },
+  "author": "Lee Warnock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeWarnock/leewarnock.io/issues"
+  },
+  "homepage": "https://github.com/LeeWarnock/leewarnock.io#readme"
+}

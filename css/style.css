@@ -165,27 +165,27 @@ header{
 	width: 100%;
 	height: 100%;
 }*/
-.feature-wiget{
+.feature-widget{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	float: left;
 	clear: both;
 	text-align: center;
 }
-.feature-wiget-right{
+.feature-widget-right{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	float:right;
 	clear: both;
 	text-align: center;
 }
-.feature-wiget h4, .feature-wiget i, .feature-wiget-right h4, .feature-wiget-right i{
+.feature-widget h4, .feature-widget i, .feature-widget-right h4, .feature-widget-right i{
 	color: #433b88;
 }
-.feature-wiget i, .feature-wiget-right i{
+.feature-widget i, .feature-widget-right i{
 	font-size: 36px;
 }
-.feature-wiget h4, .feature-wiget-right h4{
+.feature-widget h4, .feature-widget-right h4{
 	text-transform: uppercase;
 }
 .bottom-line{
@@ -324,11 +324,11 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 }
 
 /*******************************************FOOTER***************************************************/
-.footer-list-wiget h4{
+.footer-list-widget h4{
 	color: #433b88;
 	text-transform: uppercase;
 }
-.footer-list-wiget .list-group-item{
+.footer-list-widget .list-group-item{
 	border: 0px;
 	background-color: transparent!important;
 	padding-left: 0;
@@ -371,7 +371,7 @@ ul.social-list li a:hover, ul.social-list li a:focus{
 .footer-left-content .content{
 	margin-top: 15px;
 }
-.footer-list-wiget .list-group{
+.footer-list-widget .list-group{
 	margin-top: 26px;
 }
 .padding-top-120{

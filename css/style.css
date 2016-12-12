@@ -179,13 +179,22 @@ header{
 	clear: both;
 	text-align: center;
 }
-.feature-widget h4, .feature-widget i, .feature-widget-right h4, .feature-widget-right i{
+.feature-widget-left-bottom{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	float: left;
+	clear: both;
+	text-align: center;
+	position: relative;
+	bottom: 0;
+}
+.feature-widget h4, .feature-widget i, .feature-widget-right h4, .feature-widget-right i, .feature-widget-left-bottom h4, .feature-widget-left-bottom i{
 	color: #433b88;
 }
-.feature-widget i, .feature-widget-right i{
+.feature-widget i, .feature-widget-right i, .feature-widget-left-bottom i{
 	font-size: 36px;
 }
-.feature-widget h4, .feature-widget-right h4{
+.feature-widget h4, .feature-widget-right h4, .feature-widget-left-bottom h4{
 	text-transform: uppercase;
 }
 .bottom-line{
@@ -197,7 +206,7 @@ header{
 	content: '';
 	position: absolute;
 	top: 100%;
-	width: 35px;
+	width: 69px;
 	height: 2px;
 	background-color: #0e153a;
 	left: 0;
@@ -216,7 +225,7 @@ header{
 .card-block{
 	padding:4rem;
 }
-/*******************************************TESTIMONIAL**********************************************/
+/*******************************************applications**********************************************/
 .heading-wrapper{
 	margin-bottom: 120px;
 }
@@ -230,28 +239,28 @@ header{
 	height: 2px;
 	border:0px;
 }
-.testimonial-container{
+.applications-container{
 	background-color: #fff;
 	box-shadow: 0px 8px 21px 0px rgba(26, 31, 66, 0.29);
 }
-.testimonial-content{
+.applications-content{
 	padding: 2rem 8rem;
     position: relative;
     top: -45px;
     color: #5a5a5a;
     font-weight: 600;
 }
-.testimonial-speech{
+.applications-speech{
 	font-size: 16px;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 	color: #5a5a5a;
 }
-.testimonial-container .client-details{
+.applications-container .client-details{
 	position: relative;
 	top: -45px;
 }
-.testimonial-container .client-details img{
+.applications-container .client-details img{
 	border-radius: 50%;
 	margin-bottom: 25px;
 }
@@ -940,7 +949,7 @@ html {
         padding-top: 50px;
         padding-bottom: 75px;
     }
-    .testimonial-content{
+    .applications-content{
     	padding:0.5rem 1rem;
     }
     .sm-display-none{

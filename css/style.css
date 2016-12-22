@@ -156,45 +156,53 @@ header{
 }
 
 /*******************************************FEATURE**************************************************/
-/*.feature{
+#feature{
 	position: relative;
-	overflow:hidden;
+	height: 100%;
+	width: auto;
+
 }
-.feature-right-image{
+/*.feature-right-image{
 	position: absolute;
 	width: 100%;
 	height: 100%;
 }*/
+.feature-widget-wrapper{
+	position: absolute;
+	margin: 0;
+}
 .feature-widget{
 	padding-top: 15px;
 	padding-bottom: 15px;
-	float: left;
 	clear: both;
-	text-align: center;
 }
-.feature-widget-right{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	float:right;
-	clear: both;
-	text-align: center;
+.feature-widget-wrapper > div{
+	position: absolute;
+	margin: 0;
 }
-.feature-widget-left-bottom{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	float: left;
-	clear: both;
-	text-align: center;
-	position: relative;
-	bottom: 0;
+.feature-widget-wrapper:nth-child(1){
+	top:0;
+	left:0;
 }
-.feature-widget h4, .feature-widget i, .feature-widget-right h4, .feature-widget-right i, .feature-widget-left-bottom h4, .feature-widget-left-bottom i{
+.feature-widget-wrapper:nth-child(2){
+	top:0;
+	right:0;
+}
+.feature-widget-wrapper:nth-child(3){
+	bottom:0;
+	left:0;
+}
+.feature-widget-wrapper:nth-child(4){
+	bottom:0;
+	right:0;
+}
+.feature-widget h4, .feature-widget i{
 	color: #433b88;
 }
-.feature-widget i, .feature-widget-right i, .feature-widget-left-bottom i{
+.feature-widget i{
 	font-size: 36px;
 }
-.feature-widget h4, .feature-widget-right h4, .feature-widget-left-bottom h4{
+.feature-widget h4{
 	text-transform: uppercase;
 }
 .bottom-line{

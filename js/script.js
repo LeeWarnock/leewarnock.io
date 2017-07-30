@@ -82,13 +82,13 @@ $(document).ready(function() {
 
 
 	/*********************Giphy Background***********************/
-	var xhr = $.get("http://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=glitch");
+	var xhr = $.get("https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=glitch");
 
 	xhr.done(function(data) {
 
-	$('.giphy-bg').css("background-image", 'url(https://media.giphy.com/media/' + data.data.id + '/giphy.gif)'); 
+	$('.giphy-bg').css("background-image", 'url(https://media.giphy.com/media/' + data.data.id + '/giphy.gif)');
 
-	$('.giphy-parallax').css("background-image", 'url(https://media.giphy.com/media/' + data.data.id + '/giphy.gif)'); 
+	$('.giphy-parallax').css("background-image", 'url(https://media.giphy.com/media/' + data.data.id + '/giphy.gif)');
 
 	});
 

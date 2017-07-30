@@ -82,7 +82,7 @@ $(document).ready(function() {
 
 
 	/*********************Giphy Background***********************/
-	var xhr = $.get("https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=loop");
+	var xhr = $.get("https://api.giphy.com/v1/gifs/random?api_key=dc6zaTOxFJmzC&tag=perfect-loop");
 
 	xhr.done(function(data) {
 

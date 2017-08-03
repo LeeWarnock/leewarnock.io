@@ -896,7 +896,7 @@ html {
 .giphy-bg{
     background:url('') no-repeat center center;
     /* Set a specific height */
-    min-height: 0.666em; 
+    min-height: 0.666em;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -904,7 +904,7 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
 }
-    
+
 /*************************VIDEO PLAYER***********************************************/
 .videoWrapper {
 	position: relative;

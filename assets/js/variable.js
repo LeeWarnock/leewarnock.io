@@ -36,7 +36,7 @@ countdown
 ==============================================================================*/
 var _countdown = true; // countdown toggle
 var _countdownDate = '2018-12-10 23:59:59'; // 2015-12-24 23:59:59
-var _countdownTimezone = '-8'; // timezone
+var _countdownTimezone = '-6'; // timezone
 
 /*=================================================
 background style

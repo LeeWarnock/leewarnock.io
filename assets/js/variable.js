@@ -5,15 +5,15 @@
 /*==============================================================================
 color
 ==============================================================================*/
-var _mainColor = 'dark'; // ['light', 'dark']
+var _mainColor = "dark"; // ['light', 'dark']
 
 /* light overlay */
-var _lightOverlayColor = 'rgba(255, 255, 255, 0.4)'; // [rgba format] - overlay color
-var _lightFormOverlayColor = 'rgba(62, 68, 89, 0.8)'; // [rgba format] - form overlay color
+var _lightOverlayColor = "rgba(255, 255, 255, 0.4)"; // [rgba format] - overlay color
+var _lightFormOverlayColor = "rgba(62, 68, 89, 0.8)"; // [rgba format] - form overlay color
 
 /* dark overlay */
-var _darkOverlayColor = 'rgba(0, 0, 0, 0.4)'; // [rgba format] - overlay color
-var _darkFormOverlayColor = 'rgba(0, 0, 0, 0.8)'; // [rgba format] - form overlay color
+var _darkOverlayColor = "rgba(0, 0, 0, 0.4)"; // [rgba format] - overlay color
+var _darkFormOverlayColor = "rgba(0, 0, 0, 0.8)"; // [rgba format] - form overlay color
 
 /*==============================================================================
 site loader
@@ -35,8 +35,8 @@ var _animationDuration = 1750; // animation duration
 countdown
 ==============================================================================*/
 var _countdown = true; // countdown toggle
-var _countdownDate = '2018-12-10 23:59:59'; // 2015-12-24 23:59:59
-var _countdownTimezone = '-6'; // timezone
+var _countdownDate = "9-1-17 23:59:59"; // 2015-12-24 23:59:59
+var _countdownTimezone = "-6"; // timezone
 
 /*=================================================
 background style
@@ -66,8 +66,8 @@ var _removeVolume = true; // remove volume icon, if _videoMute = false will stil
 _bgStyle = 4
   - youtube video
 =================================================*/
-var _ytUrl = 'wr-srbfQeKk'; // youtube video id
-var _ytQuality = 'hightres'; // hightres, hd1080, hd720, default - youtube video quality
+var _ytUrl = "wr-srbfQeKk"; // youtube video id
+var _ytQuality = "hightres"; // hightres, hd1080, hd720, default - youtube video quality
 var _ytStart = 35; // start time (seconds)
 var _ytEnd = 120; // end time (seconds), 0 to ignored
 var _ytLoop = true; // loop
@@ -99,5 +99,5 @@ var _cloud4Duration = 61000; // how many seconds does the cloud 4 animation
 _effect = 2
   - star
 =================================================*/
-var _starColor = 'rgba(255, 255, 255, 0.9)';// star color
-var _starWidth = 1.5;// star width
+var _starColor = "rgba(255, 255, 255, 0.9)"; // star color
+var _starWidth = 1.5; // star width

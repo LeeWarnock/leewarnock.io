@@ -748,7 +748,7 @@ background control
       } else {
         fn_volumeOn();
         $body.addClass('volume-on');
-      }     
+      }
       $volume.on('click', function() {
         var video = document.getElementById('video-bg');
         $body.toggleClass('volume-off volume-on', function() {
@@ -778,7 +778,7 @@ video background
 
     $body.addClass('is-video');
     if (!isMobile) {
-      $video.append('<video id="video-bg" autoplay loop><source src="assets/video/video.mp4" type="video/mp4"></video>');
+      $video.append('<video id="video-bg" autoplay loop><source src="assets/video/Underwater Sun Rays.mp4" type="video/mp4"></video>');
       if (_videoMute) {
         var video = document.getElementById('video-bg');
         video.muted = true;
@@ -791,7 +791,7 @@ video background
       } else {
         fn_volumeOn();
         $body.addClass('volume-on');
-      }     
+      }
       $volume.on('click', function() {
         var video = document.getElementById('video-bg');
         $body.toggleClass('volume-off volume-on', function() {

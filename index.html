@@ -13,6 +13,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <!-- Bootstrap CSS -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
@@ -42,27 +49,7 @@
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MZSDH3B"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    <!--FB Chatboat Integration-->
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({
-          appId      : '676570912539203',
-          xfbml      : true,
-          version    : 'v2.10'
-        });
-        FB.AppEvents.logPageView();
-      };
-
-      (function(d, s, id){
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) {return;}
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));
-</script>
-
-    <header id="home" class="gradient-blue-pink">
+      <header id="home" class="gradient-blue-pink">
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -178,7 +165,7 @@
               <a class="btn btn-orange border-none btn-rounded-corner" href="https://jsfiddle.net/user/clwarnock/fiddles/">JSfiddle <span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
             </div>
             <div class="cta-btn-group"></div>
-            <a class="btn btn-orange border-none btn-rounded-corner" href="https://leewarnock.github.io/leewarnock.io/#cta">CHANGE BACKGROUND<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
+            <a class="btn btn-orange border-none btn-rounded-corner" href="javascript:location.reload();">CHANGE BACKGROUND<span class="icon-on-button"><i class="ion-ios-arrow-thin-right"></i></span></a>
           </div>
         </div>
       </div>
@@ -192,10 +179,10 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card">
-              <img class="card-img-top img-responsive max-width-100" src="images/MWS-Nanodegree.PNG" alt="Card image cap">
+              <a href="https://github.com/LeeWarnock/mws-restaurant-final"><img class="card-img-top img-responsive max-width-100" src="images/MWS-Nanodegree.PNG" alt="Card image cap"></a>
               <div class="card-block">
                 <p class="card-text"><small class="text-muted blog-category">Capstone Project</small></p>
-                <h4 class="card-title">Mobile Web Specilist Nanodegree</h4>
+                <h4 class="card-title">Mobile Web Specialist Nanodegree</h4>
                 <p class="card-text"><small class="text-muted italic">28<sup>th</sup>October 2018</small></p>
                 <p class="card-text"><a href="https://confirm.udacity.com/RFJGGHA4">Certificate link</a></p>
                 <a href="https://github.com/LeeWarnock/mws-restaurant-final" class="btn btn-link">read more <span><i class="ion-ios-arrow-thin-right"></i></span> </a>
@@ -204,7 +191,7 @@
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img class="card-img-top img-responsive max-width-100" src="images/Kelcyparrishdesign.PNG" alt="Card image cap">
+              <a href="http://kelcyparrishdesign.com/"><img class="card-img-top img-responsive max-width-100" src="images/Kelcyparrishdesign.PNG" alt="Card image cap"></a>
               <div class="card-block">
                 <p class="card-text"><small class="text-muted blog-category">web design+administration</small></p>
                 <h4 class="card-title">Full-Screen Youtube Videos</h4>
@@ -216,7 +203,7 @@
           </div>
           <div class="col-md-4">
             <div class="card">
-              <img class="card-img-top img-responsive max-width-100" src="images/Bjorns.PNG" alt="Card image cap">
+              <a href="https://www.bjorns.com/"><img class="card-img-top img-responsive max-width-100" src="images/Bjorns.PNG" alt="Card image cap"></a>
               <div class="card-block">
                 <p class="card-text"><small class="text-muted blog-category">web design+PHP</small></p>
                 <h4 class="card-title">Random Giphy Parallax</h4>
